@@ -1,0 +1,5 @@
+1)
+  a) A programação orientada a objetos é um paradigma que espelha as relações do mundo real de forma abstrata, permitindo a criação de objetos com características e comportamentos definidos. 
+  b) Um objeto é como uma planta de um ser abstrato que nós mesmos projetamos, especificando seus atributos, métodos e operações.
+  c) Quando uma classe é instanciada no contexto de um programa, um objeto é criado, representando uma ocorrência específica dessa classe.
+  d) Em resumo, um objeto é como um pacote completo que encapsula atributos, comportamentos e métodos, proporcionando uma representação concreta de algo. Por exemplo, uma mesa pode ser representada como um objeto com propriedades como número de pernas e material, e métodos como dobrar.
