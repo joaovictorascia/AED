@@ -1,0 +1,8 @@
+2 - O Struct é uma versão muito SIMPLIFICADA de uma classe, de modo que ela não possui elementos da POO, não possui herança e modificadores de acesso e proteção de atributos.
+	Os modificadores de acesso:
+		- (+) public -> os atributos podem ser acessados sem restrição alguma e sem intermédio de métodos getters e setters.
+				Exemplo: aluno.nome = "Joao"
+		- (-) private -> os atributos e métodos definidos como privados, só podem ser acessados por intermédio de métodos públicos que acessam esses métodos ou atributos privados.
+				Exemplo: aluno.setNome("Joao")
+		- (#) protected -> são métodos inacessíveis fora da classe e só podem ser acessados por classes derivadas dessa, uma classe filha.
+				Exemplo: alunoMestrado.nome = "Joao"
