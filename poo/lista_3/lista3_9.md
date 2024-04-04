@@ -1,0 +1,4 @@
+As grandezas físicas que influenciam a eficiência do tempo de execução de um algoritmo dependem de fatores como:
+- Processador
+- Memória RAM
+- Memória Cache
