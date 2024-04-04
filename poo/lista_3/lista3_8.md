@@ -1,0 +1,6 @@
+(a) O(n)  
+(b) O(n<sup>2</sup>)  
+(c) O(n)  
+(d) O(n)  
+(e) O(n<sup>2</sup>)  
+(f) O(n<sup>2</sup>)  
