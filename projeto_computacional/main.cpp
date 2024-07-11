@@ -8,7 +8,7 @@ using namespace std;
 
 // Algoritmo Dijkstra funciona apenas com distâncias positivas
 
-class Package
+class Package // Classe Package que representa um pacote com identificação, dados, nodos recebidos e enviados
 {
 public:
     char identificacao;
