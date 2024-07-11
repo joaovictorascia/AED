@@ -29,18 +29,18 @@ public:
     }
 };
 
-class HashTable
+class HashTable // Classe HashTable que representa a tabela hash de pacotes
 {
 private:
-    unordered_map<char, Package> table;
+    unordered_map<char, Package> table; // Tabela hash que mapeia caracteres para pacotes
 
-public:
-    void insert(const Package &pkg)
+public:   
+    void insert(const Package &pkg) // Função para inserir um pacote na tabela hash
     {
         table[pkg.identificacao] = pkg; // Armazena o pacote a ser enviado
     }
 
-    void insertAt(char from, char to, int data, int op)
+    void insertAt(char from, char to, int data, int op) // Função para inserir dados em um pacote existente na tabela hash
     {
         auto it = table.find(to); // Acha o pacote para qual se deseja enviar dados
         if (it != table.end())
@@ -52,8 +52,9 @@ public:
             }
             else if (op == 1) // Essa operação apenas pega o nodo de envio e atualiza o campo dos Nodos aos quais ele já enviou dados
             {
-                auto it = table.find(from);
-                if (it != table.end()) it->second.deliveredTo.push_back(to);
+                auto it = table.find(from); // Encontra o pacote de origem na tabela hash 
+                if (it != table.end()) it->second.deliveredTo.push_back(to); // Adiciona o nodo de destino ao vetor de nodos enviados
+                }
                 else cout << "Aconteceu um erro tente novamente!" << endl;
             }
         }
