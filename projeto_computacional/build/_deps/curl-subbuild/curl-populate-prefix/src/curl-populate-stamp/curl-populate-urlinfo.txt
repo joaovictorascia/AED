@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://github.com/curl/curl/releases/download/curl-8_7_1/curl-8.7.1.tar.xz'
-tag='SHA256=6fea2aac6a4610fbd0400afb0bcddbe7258a64c63f1f68e5855ebc0c659710cd'
